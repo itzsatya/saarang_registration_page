@@ -1,0 +1,322 @@
+.wrapper {
+  align-items: center;
+  justify-content: center;
+  color: #ffffff;
+}
+
+.error {
+  color: #E60707;
+  font-size: 0.625em;
+  font-weight: 100;
+  display: flex;
+  padding-left: 5%;
+  font-weight: bold;
+}
+
+.iAmAColumn{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.iAmAColumn2{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.contentDiv{
+  display: flex;
+  justify-content: space-evenly;
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 30px;
+}
+
+.rightDiv{
+  display: flex;
+  flex-direction: column;
+  float: right;
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+  justify-content: space-evenly;
+  padding-left: 100px;
+}
+
+.leftDiv{
+  display: flex;
+  flex-direction: column;
+  float: left;
+  margin: 10px;
+  padding: 10px;
+  width: 100%;
+  justify-content: space-evenly;
+  padding-right: 150px;
+}
+
+.Saarang_logo_1{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  padding: 10px;
+  /* padding-top: 40px;
+  padding-bottom: 50px; */
+}
+
+.fullName{
+  padding: 10px;
+  display: flex;
+  float: none;
+  /* width: 100%; */
+}
+
+.fullName > label {
+  width: 23%;
+  display: flex;
+  align-items: center;
+}
+
+.CollegeName{
+  padding: 10px;
+  display: flex;
+  float: left;
+}
+
+.CollegeName > label {
+  width: 23%;
+  display: flex;
+  align-items: center;
+}
+
+.CollegeNameDiv {
+  display: flex;
+  justify-content: center;
+  /* height: 50px; */
+}
+
+.react-search-box-dropdown-list-item{
+  color: #000 !important;
+}
+
+
+.genderDiv {
+  padding: 10px;
+  display: flex;
+  float: left;
+}
+
+#genderName{
+  width: 23%;
+  display: flex;
+  align-items: center;
+}
+
+.genderDivRadio {
+  display: flex;
+  float:left;
+  width: 100%;
+}
+
+.radio {
+  padding: 10px;
+}
+
+
+.Mobile {
+  padding: 10px;
+  display: flex;
+  float: right;
+}
+
+.Mobile > label {
+  width: 23%;
+  display: flex;
+  align-items: center;
+}
+
+.Address{
+  display: flex;
+  flex-direction: row-reverse;
+  vertical-align: bottom;
+}
+
+.Address > label {
+  width: 23%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+ 
+.City {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.City > label {
+  width: 23%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.Pincode{
+  display: flex;
+  flex-direction: row-reverse;
+  float: right;
+}
+
+.Pincode > label {
+  width: 23%;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+}
+
+.proshowsText {
+  font-family: 'Geostar', cursive;
+  display: flex;
+  justify-content: center;
+  font-size: 22px;
+}
+
+.eventsCheckbox{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+
+.form-check {
+  font-family: 'Sorts Mill Goudy', serif;
+  font-size: 30px;
+  display: flex;
+  align-items: center;
+}
+
+.form-check > label[type=text] {
+  
+}
+
+input[type=checkbox]{
+  -webkit-appearance: none;
+  appearance: none;
+  /* For iOS < 15 to remove gradient background */
+  background-color: #fff;
+  /* Not removed via appearance */
+  margin: 10px;
+  font: inherit;
+  color: currentColor;
+  width: 1.15em;
+  height: 1.15em;
+  border: 0.15em solid currentColor;
+  border-radius: 0.15em;
+  transform: translateY(-0.075em); 
+  display: grid;
+  place-content: center;
+}
+
+input[type="checkbox"]::before {
+  content: "";
+  width: 0.65em;
+  height: 0.65em;
+  transform: scale(0);
+  transition: 120ms transform ease-in-out;
+  box-shadow: inset 1em 1em var(--form-control-color);
+}
+
+input[type="checkbox"]:checked::before {
+  transform: scale(1);
+}
+
+.submitButton {
+  appearance: button;
+  backface-visibility: hidden;
+  background-color: #405cf5;
+  border-radius: 6px;
+  border-width: 0;
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset,rgba(50, 50, 93, .1) 0 2px 5px 0,rgba(0, 0, 0, .07) 0 1px 1px 0;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  font-family: -apple-system,system-ui,"Segoe UI",Roboto,"Helvetica Neue",Ubuntu,sans-serif;
+  font-size: 100%;
+  height: 44px;
+  line-height: 1.15;
+  margin: 12px 0 0;
+  outline: none;
+  overflow: hidden;
+  padding: 0 25px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  transform: translateZ(0);
+  transition: all .2s,box-shadow .08s ease-in;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 5%;
+}
+
+.submitButton:disabled {
+  cursor: default;
+}
+
+.submitButton:focus {
+  box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
+}
+
+
+.submit{
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+input[type=radio]{
+  margin: 0;
+  background-color: #ffffff;
+  width: 1.15rem;
+  height: 1.15rem;
+  border: 0.15rem solid currentColor;
+  border-radius: 50%;
+  font-size: 20px;
+}
+
+input[type=text] {
+  font-family: 'Sorts Mill Goudy', serif;
+  border: 0;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(20px);
+  margin: 20px;
+  padding: 10px;
+  height: 50px;
+  width: 100%;
+  font-size: 20px;
+  border-radius: 0ch;
+}
+
+input[type=number] {
+  font-family: 'Sorts Mill Goudy', serif;
+  padding: 5px;
+  margin: 5px 5px;
+  border: 0;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(20px);
+  margin: 20px;
+  padding: 10px;
+  height: 50px;
+  width: 100%;
+  font-size: 20px;
+}
+
+textarea {
+  font-family: 'Sorts Mill Goudy', serif;
+  border: 0;
+  overflow: auto;
+  background: rgba(255, 255, 255, 0.5);
+  backdrop-filter: blur(20px);
+  margin: 20px;
+  padding: 10px;
+  width: 100%;
+  font-size: 20px;
+}

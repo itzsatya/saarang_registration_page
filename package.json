@@ -6,9 +6,12 @@
     "@testing-library/jest-dom": "^5.16.1",
     "@testing-library/react": "^12.1.2",
     "@testing-library/user-event": "^13.5.0",
+    "bootstrap": "5.1.3",
     "react": "^17.0.2",
+    "react-bootstrap": "^2.1.0",
     "react-dom": "^17.0.2",
     "react-scripts": "5.0.0",
+    "react-search-box": "^2.1.1",
     "web-vitals": "^2.1.2"
   },
   "scripts": {
@@ -34,5 +37,13 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "guppy": {
+    "id": "2c9f8760-675b-11ec-b834-6f84e37cb598",
+    "name": "registration-app",
+    "type": "create-react-app",
+    "color": "#00C853",
+    "icon": null,
+    "createdAt": 1640640183002
   }
 }
