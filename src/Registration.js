@@ -112,13 +112,6 @@ class Register extends React.Component {
               ? ''
               : 'Lost city';
           break;
-      /*case 'rollno':
-        errors.rollno =
-          validRollNoRegex.test(value)
-            ? ''
-            : 'Invalid Rollno';
-        break;
-        */
       case 'Mobile':
         errors.Mobile =
           validMobileRegex.test(value)
@@ -147,7 +140,6 @@ class Register extends React.Component {
     event.preventDefault();
     if(validateForm(this.state.errors)) {
       console.log("Success")
-      //this.props.history.push('/nextpage');
     }else
     {
     console.error('Invalid Form')

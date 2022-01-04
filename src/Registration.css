@@ -225,6 +225,10 @@ input[type="checkbox"]:checked::before {
   transform: scale(1);
 }
 
+input[type=checkbox]:checked {
+  background-color: #50bcf2;
+}
+
 .submitButton {
   appearance: button;
   backface-visibility: hidden;
