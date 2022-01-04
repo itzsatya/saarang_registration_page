@@ -7,7 +7,7 @@ import ReactSearchBox from 'react-search-box'
 import Saarang_logo_1 from './Saarang 2022 Logo-02.png'
 import './Registration.css';
 
-const OPTIONS = ["Classical Night", "Indie Night", "Pop Night", "World Fest", "Rock Night"];
+const OPTIONS = [<div>Classical Night</div>, <div>Indie Night</div>, <div>Pop Night</div>, <div>World Fest</div>, <div>Rock Night</div>];
 const validNameRegex=RegExp(/^[A-Za-z]+$/);
 const validMobileRegex=RegExp(/^[0-9]{10}$/);
 const validPincodeRegex=RegExp(/^[1-9][0-9]{5}$/)
@@ -255,7 +255,7 @@ class Register extends React.Component {
             
             <div className='bottomDiv'>
               <div className='proshowsText'>
-                <h1>Proshows</h1>
+                <h1>------ Proshows ------</h1>
               </div>
               <div className='eventsCheckbox'>
                 {this.createCheckboxes()}
