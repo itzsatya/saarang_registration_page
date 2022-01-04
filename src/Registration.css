@@ -200,9 +200,6 @@
 input[type=checkbox]{
   -webkit-appearance: none;
   appearance: none;
-  /* For iOS < 15 to remove gradient background */
-  background-color: #fff;
-  /* Not removed via appearance */
   margin: 10px;
   font: inherit;
   color: currentColor;
