@@ -5,6 +5,7 @@ import {clgnames} from './collegenames.js'
 import Checkbox from "./Checkbox";
 import ReactSearchBox from 'react-search-box'
 import Saarang_logo_1 from './Saarang 2022 Logo-02.png'
+import Saarang_logo_2 from './saarang_logo_2.png'
 import './Registration.css';
 
 const OPTIONS = [<div>Classical Night</div>, <div>Indie Night</div>, <div>Pop Night</div>, <div>World Fest</div>, <div>Rock Night</div>];
@@ -151,7 +152,8 @@ class Register extends React.Component {
     const {errors}=this.state
     return(
       <div className="wrapper">
-        <img src={Saarang_logo_1} alt="Saarang Logo" className='Saarang_logo_1' />
+        <img src={Saarang_logo_2} alt='Saarang Logo' className='Saarang_logo_2'/>
+        <img src={Saarang_logo_1} alt="Saarang Logo Text" className='Saarang_logo_1' />
           <form className="form" onSubmit={this.handleSubmit.bind(this)} noValidate >
             <div className='contentDiv'>
             <div className='leftDiv'>
